@@ -13,7 +13,7 @@
     --blue-clr:#1F3CA3;
 }
 body {
-  background-color:rgb(12, 12, 12);
+  background-color:rgb(0, 0, 0);
   color: whitesmoke;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -93,7 +93,8 @@ button {
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    text-align: justify;  
+    text-align: justify;
+    padding-bottom: 60px;  
     /* background-color: chartreuse;   */
     /* position: relative;  */
     /* overflow: hidden; */
@@ -119,6 +120,7 @@ a{
     box-shadow: none;
     
 }
+
 .logo{
     padding:.5rem 1.7rem;
     background: transparent;
@@ -206,6 +208,10 @@ button{
     position:absolute;
     bottom:0;
     margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    width:1200px;
+    height: 230px;
     
 
     
@@ -578,3 +584,11 @@ button{
   font-size: 0.9rem;
   color: whitesmoke;
 }
+ .video{
+  padding-left: 60px;
+  
+    /* filter: contrast(1.5) brightness(1.1); */
+  
+  
+} 
+
