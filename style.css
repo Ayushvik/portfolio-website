@@ -3,7 +3,6 @@
     margin:0;
     padding:0;
     box-sizing:border-box ;
-    /* background-color: #000; */
 }
 :root{
     --white-clr:#fff;
@@ -34,15 +33,9 @@ button {
     background: rgb(0, 0, 0);
     height: 100%;
     width: 100%;
-    /* top:-85; */
-    /* background-image:url("images/gradient\ waves.png"); */
-    /* background-position: bottom; */
-    /* background-size: cover; */
     position: relative;
     isolation: isolate;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    
 
     
 }
@@ -53,17 +46,17 @@ button {
   left: 50%;
   transform: translateX(-50%);
   background: linear-gradient(
-      135deg, /* Adjusted angle for better aesthetics */
+      135deg,
       var(--violet-clr),
       var(--orange-clr)
   );
   width: 30rem;
   height: 20rem;
   border-radius: 50%;
-  z-index: 0; /* Ensure it doesn't overlap other elements */
-  filter: blur(150px); /* Ensure a clear blurred effect */
-  opacity: 0.9; /* Added slight transparency */
-  pointer-events: none; /* Ensure it doesn't interfere with clicks */
+  z-index: 0; 
+  filter: blur(150px);
+  opacity: 0.9; 
+  pointer-events: none;
 }
 
 
@@ -73,8 +66,7 @@ button {
     height:auto;
     width: 85%;
     margin: auto;
-    /* background-color: #F66A1D; */
-    /* display:inline-block ; */
+    
 }
 .navbar{
     height:14vh;
@@ -82,8 +74,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #ff007f; */
-
+   
 }
 .hero-section{
     min-height: calc(100vh - 14vh);
@@ -95,9 +86,7 @@ button {
     flex-direction: column;
     text-align: justify;
     padding-bottom: 60px;  
-    /* background-color: chartreuse;   */
-    /* position: relative;  */
-    /* overflow: hidden; */
+    
     
 }
 
@@ -121,24 +110,15 @@ a{
     
 }
 
-.logo{
-    padding:.5rem 1.7rem;
-    background: transparent;
-    
-    /* color:var(--white-clr); */
-    /* font-size:1rem; */
-    /* border:.1rem solid var(--white-clr); */
-    /* border-radius: 5rem; */
-    /* box-shadow: inset 7px 7px 20px rgba(255, 255, 255, 0.36); */
-}
+
 
 .link{
     color:var(--white-clr);
 }
 .link:hover {
     color: rgb(7, 7, 172);
-    transform: scale(1.1); /* Slightly enlarges the button */
-    transition: all 0.3s ease; /* Smooth transition */
+    transform: scale(1.1); 
+    transition: all 0.3s ease;
   }
 button{
     padding:.5rem 1.7rem;
@@ -149,7 +129,7 @@ button{
 .skills{
 
     display: flex;
-    /* background-color: pink; */
+   
     
     
 }
@@ -158,25 +138,21 @@ button{
     margin-top: 11%;
     height:auto;
     width:auto;
-    /* background-color: green; */
+    
 }
 
 
 .skills_img{
   width:4rem;
   height: 10vh;
-  /* margin-top: 15px; */
+ 
   margin-left: 40px;
   margin-top:20px;
-  /* padding-left: 3%; */
-  /* border: 2px solid white; */
-  /* border-radius: 100%; */
+  
   object-fit: cover;
   object-position:center;
   transition: box-shadow 0.4s ease, transform 0.4s ease;
-  /* color: #4e00ff; */
-  /* transition:transform .4s; */
-  /* background-color: red; */
+  
 
  
    
@@ -199,7 +175,7 @@ button{
   right: -5px;
   bottom: -5px;
   z-index: -1;
-  /* border-radius: 50%; Adjust based on your image shape */
+  
   background: linear-gradient(90deg, #4e54c8, #8f94fb);
   box-shadow: 0 0 20px rgba(78, 84, 200, 0.6), 0 0 40px rgba(143, 148, 251, 0.6);
 }
@@ -233,8 +209,7 @@ button{
     margin:60px auto;
     color:#fff;
     padding:20px;
-    /* box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
-    /* background-color: rgb(12, 12, 12); */
+    
 }
 
 
@@ -324,7 +299,7 @@ button{
 
 }
 
-/* Section Title */
+
 .section-title {
     color: whitesmoke;
     text-align: center;
@@ -332,7 +307,7 @@ button{
     margin: 20px 0;
   }
   
-  /* Card Container */
+  
   .card-container {
     display: flex;
     justify-content: center;
@@ -343,7 +318,7 @@ button{
     
   }
   
-  /* Card Styling */
+  
   .card {
     background-color: #14003c;
     border-radius: 10px;
@@ -361,7 +336,7 @@ button{
     transform: translateY(-10px);
   }
   
-  /* Card Image */
+ 
   .card img {
     width: 100%;
     height: 180px;
@@ -369,10 +344,10 @@ button{
     border-radius: 10px;
     margin-bottom: 15px;
   }
-   /* Card Content */
+  
    .card-content {
     position: absolute;
-    /* bottom: -100px; */
+   
     left: 0;
     width: 100%;
     background-color: transparent;
@@ -384,14 +359,14 @@ button{
     transition: all 0.5s ease;
   }
   
-  /* Hover Effect for Content */
+  
   .card:hover .card-content {
     bottom: 0;
     opacity: 1;
     transform: translateY(0);
   }
   
-  /* Headings and Paragraphs */
+ 
   .card-content h3 {
     margin: 0;
     font-size: 1.5rem;
@@ -404,7 +379,7 @@ button{
     color: #bdbdbd;
   }
  
-  /* Visit Button */
+ 
   .visit-btn {
     display: inline-block;
     margin-top: 10px;
@@ -422,10 +397,9 @@ button{
   }
   .contact-section {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+   
     height: 100vh;
-    /* padding: 20px; */
+    
   }
   
   .contact-form-container {
@@ -439,7 +413,7 @@ button{
     margin: 20px;
   }
   
-  /* Headings */
+  
   .contact-heading {
     font-size: 1.2rem;
     margin-bottom: 1px;
@@ -454,7 +428,7 @@ button{
     color: #ffffff;
   }
   
-  /* Form Groups */
+  
   .form-group {
     margin-bottom: 18px;
   }
@@ -490,13 +464,13 @@ button{
     border: 1px solid rgb(131, 131, 235);
   }
   
-  /* Textarea */
+ 
   textarea {
     height: 100px;
     resize: none;
   }
   
-  /* Send Button */
+ 
   .send-btn {
     width: 30%;
     padding: 10px 20px;
@@ -513,7 +487,7 @@ button{
   .send-btn:hover {
      background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 50%, #6a11cb 75%, #2575fc 100%);
   }
-  /* General styles */
+ 
 
 
 .education-section {
@@ -529,7 +503,7 @@ button{
   margin-bottom: 30px;
 }
 
-/* Timeline styles */
+
 .education-timeline {
   position: relative;
   padding-left: 20px;
@@ -560,7 +534,7 @@ button{
   z-index: 1;
 }
 
-/* Content styles */
+
 .education-content {
   background-color: #14003c;
   padding: 15px 20px;
@@ -586,9 +560,6 @@ button{
 }
  .video{
   padding-left: 60px;
-  
-    /* filter: contrast(1.5) brightness(1.1); */
-  
-  
+    
 } 
 
