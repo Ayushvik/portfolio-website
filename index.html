@@ -3,192 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio-website</title>
-    <link rel="stylesheet" href="style.css"> 
+    <title>Navbar Demo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
-    <div class = "main-container">
-        <div class="inner-container">
-
-            <nav class = "navbar">
-              <a id="downloadLink" href="#" class="download-btn"><img src="images/icons8-resume-48.png" alt="" srcset="" height="30" width="30"></a>
-<script src="script.js"></script>
     
 
-                <ul class="navlist">
-                    <li>
-                       <a href="https://www.linkedin.com/in/ayush-vishwakarma-57123a206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="images/linkedin (1).png" alt="" height = "25vh" width = "25vw"></a> 
-                        
-                       </li> 
-                        <li>
-                       <a href="https://leetcode.com/u/_ayushvik_/"><img src="images/download.png" alt=""  height = "25vh" width = "25vw"></a>
-                       
-                       </li> 
-                   <li>
-                    <a href="#contact" class = "link">Contact</a>
-                   </li> 
-                   <li>
-                    <a href="#skills-section" class = "link">Skills</a>
-                   </li>
-                   <li>
-                    <a href="#project" class = "link">Projects</a>
-                   </li>
-                                     
+    
+   <div class="nav-container">
+    <a href="#home" class="logo">Ayushvik</a> 
 
-                 
-                </ul>
-            </nav>
-             <section class = "hero-section">
-                <div class = "intro">
-                 <h3>Hello Wordl,i am</h3>
-                <h1>Ayush vishwakarma</h1>
-                <h3>I'am a <span>Frontend-Developer</span>
-                </h3>
-                
-               </div>
-              <div class = "waves">
-             <img src="images/gradient_waves-removebg-preview.png" alt="" srcset="">
-              </div>
-             </section>
-        
-            </div> 
+   
+    <div class="nav-links" id="nav-links">
+        <a href=".nav-container" class="nav-item ">Home</a>
+       <a href="https://leetcode.com/u/_ayushvik_/" target="_blank" class="nav-item">Leetcode</a>
+    <a href="#portfolio_container" class="nav-item ">Portofolio</a>
+        <a href="#contact_cardList" class="nav-item ">Contact</a>
+    </div>
+
+    <button class="hamburger" id="hamburger">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+    </button>
+</div>
+
+ <!-- Toggle button placed here -->
+    <div class="toggle">
+        <input type="checkbox" class="toggleButton" id="toggleButton"/>
+        <label for="toggleButton" class="toggleButton-label">
+             <div class="sky"></div>
+            <div class="ball"></div>
            
-            <div id = "skills-section" class = "skills">
-                     
-           <div class = "skills1">
-            <div class = "skills_img">
- <img src="images/java.png"  alt="" height="55vh" width = "65vw">    
-            </div>
-            <div class = "skills_img">
- <img src="images/js.png"  alt="" height="55vh" width = "65vw">    
-            </div>
-            <div class = "skills_img">
- <img src="images/css-3.png"  alt="" height="55vh" width = "65vw">    
-            </div>
-            <div class = "skills_img">
- <img src="images/html.png"  alt="" height="55vh" width = "65vw">    
-            </div>
+        </label>
+    </div>
+    
 
-           </div>
+    <div class="min-h-screen bg-[#030014] overflow-hidden flex items-center justify-center" id="Home">
+    <div class="text-center fade-in">
+      <div class="space-y-6 px-6">
+        <!-- Title -->
+        <h1 class="title">Web Development</h1>
 
-          <div class  ="skill">
-
-            <h1> My skill</h1>
-            <li><h3>Java</h3>
-            <span class = "bar"><span class = "java"></span></span>
-        </li>
-            <li><h3>Javascript</h3>
-            <span class = "bar"><span class = "javascript"></span></span>
-        </li>
-            <li><h3>Css</h3>
-            <span class = "bar"><span class = "css"></span></span>
-        </li>
-            <li><h3>Html</h3>
-            <span class = "bar"><span class = "html"></span></span>
-        </li>
-
-          </div>
-        
-        
+        <!-- Typing Text -->
+        <div class="typing-container">
+          <span id="typing-text" class="typing-text"></span>
+          <span class="blinking-cursor"></span>
         </div>
-        <section id = "project" class="recent-projects">
-            <h1 class="section-title">Recent Projects</h1>
-            <div class="card-container">
-              <!-- Card 1 -->
-              <div class="card">
-                <img src="images/coming-soon-display-background-with-focus-light_1017-33741.avif" alt="Coffee Website">
-                <div class="card-content"> <h3>Coffee Website</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nostrum.</p></div>
-               
-                <a href="#" class="visit-btn">Visit Project</a>
-              </div>
-              <!-- Card 2 -->
-              <div class="card">
-                <img src="images/coming-soon-display-background-with-focus-light_1017-33741.avif" alt="Food Product Design">
-                <div class="card-content"> <h3>Food Product Design</h3>
-                    <p>Short description of the project that was carried out in this portfolio.</p></div>
-               
-               
-                <a href="#" class="visit-btn">Visit Project</a>
-              </div>
-              <!-- Card 3 -->
-              <div class="card">
-                <img src="images/coming-soon-display-background-with-focus-light_1017-33741.avif" alt="Restaurant Landing Page">
-                <div class="card-content"> <h3>Restaurant Landing Page</h3>
-                <p>Short description of the project that was carried out in this portfolio.</p></div>
-               
-               
-                <a href="#" class="visit-btn">Visit Project</a>
-              </div>
-             
-              
-            </div>
-          </section>
 
-          <section class="education-section">
-            <h2 class="section-title">Education</h2>
-            <div class="education-timeline">
-                <div class="education-item">
-                    <span class="timeline-circle"></span>
-                    <div class="education-content">
-                        <p class="education-duration">2022-2026</p>
-                        <h3 class="education-title">Bachelor's degree</h3>
-                        <p class="education-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </p>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <span class="timeline-circle"></span>
-                    <div class="education-content">
-                        <p class="education-duration">2019-2021</p>
-                        <h3 class="education-title">Senior Secondary</h3>
-                        <p class="education-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </p>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <span class="timeline-circle"></span>
-                    <div class="education-content">
-                        <p class="education-duration">2018-2019</p>
-                        <h3 class="education-title">Secondary Education</h3>
-                        <p class="education-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- Tech Stack -->
+        <div class="tech-stack">
+          <div class="tech-item">React</div>
+          <div class="tech-item">Javascript</div>
+          <div class="tech-item">Node.js</div>
+          <div class="tech-item">Tailwind</div>
+        </div>
 
-         
-         <section id = "contact" class="contact-section">
-          <div class="contact-form-container">
-            <h2 class="contact-heading">GET IN TOUCH</h2>
-            <h1 class="contact-title">Contact.</h1>
-            <form action="mailto:ayushvishwakarma2711@gmail.com" method="POST" enctype="text/plain">
-              <div class="form-group">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="What's your good name?" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" placeholder="What's your web address?" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" placeholder="What you want to say?" required></textarea>
-              </div>
-              <button type="submit" class="send-btn">Send</button>
-            </form>
-          </div>
-          <div class ="video">
-            <video src="videos/fotor-video_enhancer-preview-20250107225330.mp4"  autoplay loop muted width="450"></video>
-            </div>
-        </section>
-       
+        <!-- CTA Buttons -->
+        <div class="cta-buttons">
+          <a href="#portfolio_container" class="cta-button">
+            <span class="cta-text">Projects</span>
+            <span class="icon">🔗</span>
+          </a>
+          <a href="" class="cta-button" id="resume"> <span class="cta-text" id = "resume">Resume</span>
+     <span class="icon">📧</span></a></a>
+      </div>  
+      </div>
      </div>
+      </div>
 
+ <div class="container" id ="portfolio_container">
+    <h1>Portfolio Showcase</h1>
+    <p class="description">
+      Explore my journey through projects, certifications, and technical expertise.
+      Each section represents a milestone in my continuous learning path.
+    </p>
+
+    <div class="tabs">
+      <button class="tab active" onclick="showTab('projects')">Projects</button>
+      <button class="tab" onclick="showTab('certificates')"> Certificates</button>
+      <button class="tab" onclick="showTab('techstack')">Tech Stack</button>
+    </div>
+
+   <div id="projects" class="tab-content active">
+  <div class="card">
+     <h1>AI-Powered Toolkit</h1>
+    <img src="images/AI-powered toolkit.png" alt="AI toolkit project image">
+   
+    
+    <button onclick="window.open('https://vercel.com/ayushviks-projects/ai-powered-career-toolkit', '_blank')">Visit Project</button>
+  </div>
+
+  <div class="card">
+     <h1>Advance TodoList</h1>
+    <img src="images/Todo.png" alt="Project 2">
+   
+      <button onclick="window.open('https://vercel.com/ayushviks-projects/todo', '_blank')">Visit Project</button>
+  </div>
+
+  <div class="card">
+     <h1>Advanced-AQI</h1>
+    <img src="images/AQI.png" alt="Project 3">
+    <button onclick="window.open('https://vercel.com/ayushviks-projects/aqi_tracker', '_blank')">Visit Project</button>
+  </div>
+</div>
+
+
+    <div id="certificates" class="tab-content">
+      <div class="card">  <h1>Core Java</h1>
+       <img src="images/JAVA.png" alt="Project 3">
+    <button onclick="window.open('https://www.udemy.com/certificate/UC-ee26a94d-3d24-4ab2-9b7a-4d500883b66d/', '_blank')">Certification link</button></div>
+      <div class="card"><h1>DSA in java</h1>
+       <img src="images/DSA IN JAVA.png" alt="Project 3">
+    <button onclick="window.open('https://www.udemy.com/certificate/UC-649090d2-2d4c-4142-b408-f29f0f06f592/', '_blank')">Certification link</button></div>
+      <div class="card"><h1>Internet of things</h1>
+       <img src="images/IOT.png" alt="Project 3">
+    <button onclick="window.open('https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc25-cs44', '_blank')">Certification link</button></div>
+    </div>
+
+    <div id="techstack" class="tab-content">
+      <div class="Skills">
+    <div class="card1"><img src="images/html.svg" alt="HTML"><p>HTML</p></div>
+    <div class="card1"><img src="images/css.svg" alt="CSS"><p>CSS</p></div>
+    <div class="card1"><img src="images/javascript.svg" alt="JavaScript"><p>JavaScript</p></div>
+    <div class="card1"><img src="images/tailwind.svg" alt="Tailwind CSS"><p>Tailwind CSS</p></div>
+    <div class="card1"><img src="images/reactjs.svg" alt="ReactJS"><p>ReactJS</p></div>
+    <div class="card1"><img src="images/vite.svg" alt="Vite"><p>Vite</p></div>
+    <div class="card1"><img src="images/nodejs.svg" alt="Node JS"><p>Node JS</p></div>
+    <div class="card1"><img src="images/Next1.png" alt="Bootstrap"><p>Next JS</p></div>
+    <div class="card1"><img src="images/firebase.svg" alt="Firebase"><p>Firebase</p></div>
+    <div class="card1"><img src="images/favicon.png" alt="Firebase"><p>Neon</p></div>
+    <div class="card1"><img src="images/vercel.svg" alt="Firebase"><p>Vercel</p></div>
+    <div class="card1"><img src="images/Github.png" alt="Firebase"><p>Github</p></div>
+  </div>
+    </div>
+  <h1>Contact me</h1>
+  <p>Got a question?Send me a message,and I will get back to you soon</p>
+  
+  
+  <div class="contact-card" id = "contact_cardList">   
+  <h2>Get in Touch</h2>
+  <p>Have something to discuss? Send me a message and let's talk.</p>
+  <form id="contact-form">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit"><i class="fas fa-paper-plane icon"></i>Send Message</button>
+  </form>
+</div>
+<video src="video/fotor-video-enhancer-preview-2-unscreen.gif" autoplay loop muted width="450"></video>
+  </div>
+    <script src="script.js"></script>
 </body>
 </html>
