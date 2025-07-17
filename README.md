@@ -29,11 +29,7 @@
 
 ---
 
-## 🖼️ Website Previews
 
-| 🏠 Home Page | 💡 Tech Stack |
-|-------------|---------------|
-| ![Home]("https://github.com/Ayushvik/portfolio-website/blob/main/images/AQI.png") | ![Tech Stack]("C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-07-17 144614.png") |
 
 
 ---
