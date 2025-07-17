@@ -23,7 +23,7 @@
 
 ## 🚀 Live Demo
 
-🔗 [View Live Portfolio](https://yourusername.github.io/your-repo-name)
+🔗 [View Live Portfolio](https://portfolio-website-dusky-three.vercel.app/)
 
 > Replace with your actual GitHub Pages link
 
@@ -33,7 +33,7 @@
 
 | 🏠 Home Page | 💡 Tech Stack |
 |-------------|---------------|
-| ![Home]("C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-07-17 144504.png") | ![Tech Stack]("C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-07-17 144614.png") |
+| ![Home]("C:\Users\hp\OneDrive\Pictures\Screenshots") | ![Tech Stack]("C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-07-17 144614.png") |
 
 
 ---
