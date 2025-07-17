@@ -67,11 +67,8 @@
 └── 📄 style.css
 
 ---
-# Step 1: Clone the repository
+# Clone:
 git clone https://github.com/Ayushvik/portfolio-website.git
-
-# Step 2: Navigate to the project directory
-cd your-repo-name
 
 # Step 3: Open the project in your default browser
 open index.html
