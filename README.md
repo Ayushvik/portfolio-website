@@ -33,11 +33,8 @@
 
 | 🏠 Home Page | 💡 Tech Stack |
 |-------------|---------------|
-| ![Home](images/home.png) | ![Tech Stack](images/techstack.png) |
+| ![Home]("C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-07-17 144504.png") | ![Tech Stack]("C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-07-17 144614.png") |
 
-| 🏅 Certificates | 🧪 Projects | 📬 Connect |
-|----------------|-------------|------------|
-| ![Certs](images/certificates.png) | ![Projects](images/projects.png) | ![Contact](images/contact.png) |
 
 ---
 
@@ -63,5 +60,24 @@
 
 ---
 
-## 📁 Folder Structure
+📦 Your Portfolio Project
+├── 📁 .idea
+├── 📁 .vscode
+├── 📁 images
+├── 📄 README.md
+├── 📄 Resume-ayush.pdf
+├── 📄 index.html
+├── 📄 script.js
+└── 📄 style.css
+
+---
+# Step 1: Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Step 2: Navigate to the project directory
+cd your-repo-name
+
+# Step 3: Open the project in your default browser
+open index.html
+---
 
