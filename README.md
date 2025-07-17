@@ -70,7 +70,6 @@
 # Clone:
 git clone https://github.com/Ayushvik/portfolio-website.git
 
-# Step 3: Open the project in your default browser
-open index.html
+
 ---
 
