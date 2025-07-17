@@ -33,7 +33,7 @@
 
 | 🏠 Home Page | 💡 Tech Stack |
 |-------------|---------------|
-| ![Home]("C:\Users\hp\OneDrive\Pictures\Screenshots") | ![Tech Stack]("C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-07-17 144614.png") |
+| ![Home]("https://github.com/Ayushvik/portfolio-website/blob/main/images/AQI.png") | ![Tech Stack]("C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-07-17 144614.png") |
 
 
 ---
